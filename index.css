@@ -330,6 +330,108 @@ color: white;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
+
+
+
+
+.optional-1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    color: #5a5a5d;
+}
+.optional-1 .head{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.optional-1 .text{
+    margin-bottom: 50px;
+    width: 600px;
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.part-1 , .part-3{
+    width: 100%;
+    height: 500px;
+    background-image: url(Images/Group\ 39.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    position: relative;
+}
+
+.part-2{
+    width: 100%;
+    height: 500px;
+    background-image: url(Images/Group\ 40.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    position: relative;
+}
+.content-1,
+.content-2,
+.content-3{
+    position: absolute;
+    top: 11%;
+    right: 5%;
+    width: 580px;
+    height: 390px;
+    border-radius: 16px;
+     border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 30px;
+}
+
+.optional-1 .header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.time,
+.people,
+.places{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.optional-1 .head{
+    font-size: 24px;
+    color: #131318;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.prices{
+    margin: 20px 0 40px 0;
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.content-2{
+    left: 5%;
+}
+.optional-1-btn{
+    align-self: center;
+}
+
+
+
+
+
 .five{
     margin-top: 100px;
     display: flex;
@@ -465,7 +567,7 @@ footer hr{
     }
     .logo-2 a{
         display: block;
-        margin-right: 20px;
+        font-size: 20px;
         padding: 10px;
     }
     .logo a, .logo span{
@@ -550,10 +652,35 @@ footer hr{
     }
     .card-1, .card-2, .card-3{
         width: 100%;
+        height: 330px;
     }
     .card-head{
         font-size: 20px;
     }
+    .optional-1 .text{
+        width: 100%;
+    }
+    .content-1,
+    .content-2,
+    .content-3{
+        width: 300px;
+        height: 350px;
+        bottom: 10%;
+        padding: 5px;
+    }
+    .optional-1 .head{
+        margin: 10px 0;
+    }
+    .optional-1 .prices{
+        margin:10px 0 10px 0 ;
+    }
+    .optional-1 .btn{
+        margin-top: 20px;
+    }
+
+
+
+
     .five{
         flex-direction: column;
     }
