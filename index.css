@@ -263,6 +263,24 @@ color: white;
     font-weight: 800;
     padding-top: 135px;
 }
+.three-img-1:hover,
+.three-img-2:hover,
+.three-img-3:hover,
+.three-img-4:hover,
+.three-img-5:hover,
+.three-img-6:hover,
+.three-img-7:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 20px black;
+    animation: animate linear 0.7s 0.05s;
+}
+@keyframes animate{
+    0%{transform: scale(0);  }
+    25%{transform:scale(0.25); }
+    50%{transform: scale(0.5);}
+    75%{transform:  scale(0.75);  }
+    100%{transform:  scale(1);  }
+}
 
 .four-content{
     width: 600px;
