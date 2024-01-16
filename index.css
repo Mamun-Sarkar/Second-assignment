@@ -1,0 +1,575 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+  }
+  .container{
+    width: 90%;
+    margin: auto;
+  }
+  nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ nav a{
+    text-decoration: none;
+    color: black;
+ }
+ .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .logo a{
+    text-decoration: none;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+ }
+ .logo span{
+    font-size: 36px;
+    font-weight: 800;
+    color: #ff5400;
+ }
+ .nav-menu ul{
+    display: block;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 380px;
+    color: #424247;
+ }
+ .nav-menu li a{
+    color: #424247;
+    font-weight: 400;
+ }
+ .logo-2 a{
+    display: none;
+ }
+ li span{
+    color: #ff5400;
+    font-size: 18px;
+    font-weight: 700;
+ }
+
+ .one{ 
+    margin-top: 50px;
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 500px;
+ 
+ }
+
+ .banner{
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+ }
+
+ .banner-content{
+    width: 650px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+ }
+ .banner-head{
+    font-size: 64px;
+    font-weight: 800;
+ }
+
+ .banner-buttons{
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.30);
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+ }
+
+ .banner-buttons button{
+    width: 175px;
+    color: rgba(19, 19, 24, 0.5);
+    height: 50px;
+    border: none ;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+.banner-btn-4 {
+    background-color: #ff5400;
+}
+.banner-btn-4 i, .banner-btn-4 span {
+color: white;
+}
+.two{
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+.two-left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.two-head{
+    margin-top: 30px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.two-text{
+    color: rgba(19, 19, 24, 0.70);
+}
+.two ul{
+    margin-left: 20px;
+}
+
+.two-left li{
+    margin: 10px 0;
+    color: rgba(19, 19, 24, 0.70);
+}
+.two-btn{
+    margin-top: 30px;
+    padding: 15px 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #ff5400;
+    align-self: start;
+    border: none;
+    border-radius: 8px;
+}
+
+.three-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    width: 600px;
+    margin: 50px auto ;
+}
+.three-head{
+    font-size: 40px;
+    font-weight: 800;
+}
+.three-text{
+    color: rgba(19, 19, 24, 0.70);
+}
+.three-img-1{
+    width: 550px;
+    background-image: url(Images/Rectangle\ 5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    height: 300px;
+}
+.three-img-2{
+    width: 550px;
+    background-image: url(Images/Rectangle\ 8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    height: 300px;
+}
+.three-img-3{
+    width: 350px;
+    background-image: url(Images/Rectangle\ 6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    height: 300px;
+}
+.three-img-4{
+    width: 450px;
+    background-image: url(Images/Rectangle\ 7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    height: 300px;
+}
+.three-img-5{
+    width: 290px;
+    background-image: url(Images/Rectangle\ 9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    height: 300px;
+}
+.three-img-6{
+    width: 450px;
+    background-image: url(Images/Rectangle\ 11.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    height: 300px;
+}
+.three-img-7{
+    width: 650px;
+    background-image: url(Images/Rectangle\ 10.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    height: 300px;
+}
+.three-images{
+    margin: auto;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  
+}
+.bg{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+    height: 300px;
+    width: 100%;
+    
+}
+.place{
+   text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 135px;
+}
+
+.four-content{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 50px auto;
+    text-align: center;
+}
+.four-head{
+    font-size: 40px;
+    font-weight: 800;
+}
+.four-text{
+    color: rgba(19, 19, 24, 0.70);
+}
+.four-cards{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-head{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 15px 0;
+}
+.card-text{
+    color: #5a5a5d;
+}
+
+
+.card-2{
+    padding: 25px;
+    width: 550px;
+    height: 280px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20); 
+    background: rgba(41, 206, 246, 0.05);
+}
+.card-1, .card-3{
+    padding: 25px;
+    width: 550px;
+    height: 280px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.five{
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+.five-left{
+    width: 450px;
+    width: 400px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.five-head{
+    font-size: 24px;
+    font-weight: 800;
+}
+hr{
+    background: rgba(19, 19, 24, 0.10);
+}
+.five-left input{
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+.five input::placeholder{
+    padding: 0 30px;
+    color: rgba(19, 19, 24, 0.3);
+}
+.five-btn{
+    border-radius: 8px;
+background: #FF5400;
+color: white;
+font-weight: 800;
+padding: 15px 0;
+border: none;
+}
+
+.five-right{
+    background-image: url(Images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 650px;
+    height: 400px;
+    position: relative;
+}
+.five-right a{
+    text-decoration: none;
+    color: white;
+}
+.five-right .five-head{
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+}
+.five-right .content{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 120px;
+    border-radius: 16px;
+    background-color: #FF5400;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    bottom: 11%;
+    right: 1%;
+    transform: rotate(341deg);
+}
+footer{
+    margin-top: 50px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    height: 500px;
+}
+.footer-content{
+    padding: 130px 330px 110px 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.footer-text{
+    color: #5a5a5d;
+}
+.footer-logos{
+    display: flex;
+    gap: 40px;
+}
+.footer-logos a{
+    text-decoration: none;
+    
+    
+}
+.footer-logos i{
+    font-size: 30px;
+    color: black;
+}
+footer hr{
+    width: 800px;
+}
+
+
+
+.copyright{
+    font-family: 'Inter', sans-serif;
+    color: #131318;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    
+    .nav-menu ul{
+        display: none;
+    }
+    .logo-2 a{
+        display: block;
+        margin-right: 20px;
+        padding: 10px;
+    }
+    .logo a, .logo span{
+        font-size: 20px;
+    }
+    .logo img{
+        width: 35px;
+        height: 30px;
+    }
+    .banner{
+        justify-content: start;
+        
+    }
+    .banner-content{
+        width: 300px;
+        margin-top: 50px;
+    }
+    .banner-head{
+        font-size: 22px;
+    }
+    .banner-text{
+        font-size: 14px;
+    }
+    .banner-buttons{
+        flex-direction: column;
+    }
+    .banner-buttons button{
+        width: 275px;
+        justify-content: space-between;
+    }
+    .banner-buttons span{
+        margin-left: 10px;
+    }
+    .banner-buttons i{
+        margin-right: 10px;
+    }
+    .banner-btn-4 i{
+        margin-left: 20%;
+    }
+    .banner-btn-4 span{
+        margin-right: 45%;
+    }
+    .two{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .two-head{
+        font-size: 20px;
+    }
+    .three-content{
+        width: 100%;
+    }
+    .three-head{
+        font-size: 20px;
+    }
+    .three-img-1,
+    .three-img-2,
+    .three-img-3,
+    .three-img-4,
+    .three-img-5,
+    .three-img-6,
+    .three-img-7{
+        width: 100%;
+        height: 175px;
+    }
+    .bg{
+        height: 175px;
+    }
+    .place{
+        font-size: 20px;
+        padding-top: 77px;
+    }
+
+    .four-content{
+        width: 100%;
+    }
+    .four-head{
+        font-size: 20px;
+    }
+    .four-cards{
+        flex-direction: column;
+    }
+    .card-1, .card-2, .card-3{
+        width: 100%;
+    }
+    .card-head{
+        font-size: 20px;
+    }
+    .five{
+        flex-direction: column;
+    }
+    .five-left{
+        width: 100%;
+        
+    }
+    .five-right{
+        width: 100%;
+        height: 300px;
+        border-radius: 16px;
+    }
+    .five-right .content{
+        width: 200px;
+        height: 80px;
+    }
+    .five-right .five-head{
+        font-size: 22px;
+    }
+    .footer-content{
+        width: 300px;
+        margin: auto;
+        padding: 0;
+    }
+    .footer-content .logo{
+        margin-top: 100px;
+    }
+    .footer-text{
+        font-size: 14px;
+    }
+    footer hr{
+        width: 100%;
+    }
+
+
+
+}
