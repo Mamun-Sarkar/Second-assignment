@@ -392,6 +392,9 @@ color: white;
     align-items: start;
     padding: 30px;
 }
+.content-2{
+    left: 5%;
+}
 
 .optional-1 .header{
     display: flex;
@@ -423,9 +426,7 @@ color: white;
 
 }
 
-.content-2{
-    left: 5%;
-}
+
 .optional-1-btn{
     align-self: center;
 }
@@ -662,12 +663,15 @@ footer hr{
     .optional-1 .text{
         width: 100%;
     }
+
     .content-1,
     .content-2,
     .content-3{
-        width: 300px;
+        width: 320px;
         height: 350px;
-        bottom: 10%;
+        margin: 12% auto;
+        position: static;
+
         padding: 5px;
     }
     .optional-1 .head{
